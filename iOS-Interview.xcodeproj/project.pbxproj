@@ -19,7 +19,6 @@
 		5EDB340E286DA8D900A9A68B /* CoreDataStorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB340D286DA8D900A9A68B /* CoreDataStorerTests.swift */; };
 		5EDB3410286DA91800A9A68B /* ProductTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB340F286DA91800A9A68B /* ProductTable.swift */; };
 		5EDB3414286DA9E300A9A68B /* Pinkoi iOS Interview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB3413286DA9E300A9A68B /* Pinkoi iOS Interview.pdf */; };
-		78CA197C28950ECE005C9F24 /* UserTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78CA197A28950ECE005C9F24 /* UserTable.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		5EDB340D286DA8D900A9A68B /* CoreDataStorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStorerTests.swift; sourceTree = "<group>"; };
 		5EDB340F286DA91800A9A68B /* ProductTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTable.swift; sourceTree = "<group>"; };
 		5EDB3413286DA9E300A9A68B /* Pinkoi iOS Interview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Pinkoi iOS Interview.pdf"; sourceTree = "<group>"; };
-		78CA197B28950ECE005C9F24 /* UserTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserTable.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +91,6 @@
 				5EDB3413286DA9E300A9A68B /* Pinkoi iOS Interview.pdf */,
 				5EDB3402286DA80400A9A68B /* Storers */,
 				5EDB33FD286DA7D100A9A68B /* Models */,
-				78CA197A28950ECE005C9F24 /* UserTable.xcdatamodeld */,
 			);
 			path = "iOS-Interview";
 			sourceTree = "<group>";
@@ -260,7 +257,6 @@
 				5EDB33FF286DA7DB00A9A68B /* User.swift in Sources */,
 				5EDB3401286DA7F600A9A68B /* Product.swift in Sources */,
 				5EDB3404286DA80E00A9A68B /* CoreDataStorer.swift in Sources */,
-				78CA197C28950ECE005C9F24 /* UserTable.xcdatamodeld in Sources */,
 				5EDB3409286DA87100A9A68B /* CoreDataTable.swift in Sources */,
 				5EDB3410286DA91800A9A68B /* ProductTable.swift in Sources */,
 			);
@@ -532,19 +528,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		78CA197A28950ECE005C9F24 /* UserTable.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				78CA197B28950ECE005C9F24 /* UserTable.xcdatamodel */,
-			);
-			currentVersion = 78CA197B28950ECE005C9F24 /* UserTable.xcdatamodel */;
-			path = UserTable.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5EDB33DA286DA7BD00A9A68B /* Project object */;
 }
